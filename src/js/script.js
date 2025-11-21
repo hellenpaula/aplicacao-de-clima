@@ -24,7 +24,6 @@ const sectionAlert = document.querySelector(".alert");
 const sectionTempTag = document.querySelector(".sectionTemp");
 const sectionInfoTag = document.querySelector(".sectionInfo");
 
-
 // criando elemento img de erro:
     const imgError = document.createElement("img");
     imgError.setAttribute('src', "src/img/img error 404.svg");
@@ -68,12 +67,10 @@ search.addEventListener("click", async () => {
             temp: Math.round(json.main.temp),
             description: json.weather[0].description,
             tempMax: Math.round(json.main.temp_max),
-            // tempMax: (json.main.temp_max.toFixed(0)),
             tempMin: Math.round(json.main.temp_min),
             humidity: json.main.humidity,
             speed: json.wind.speed.toFixed(1),
             icon: json.weather[0].icon,
-
         }
 
         // configurando nomes:
@@ -96,7 +93,7 @@ search.addEventListener("click", async () => {
 
         // configurando temp. mínima:
         const tempMin = document.querySelector("#tempMin");
-        tempMin.innerHTML = array.tempMin + " <sup>C°</sup>";
+        tempMin.innerHTML = array.tempMin + " <sup>C°</sup>" ;
 
         // configurando humidade:
         const humidityTag = document.querySelector("#humidity");
