@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Clima</title>
+
+
+</head>
+<body>
+    
+    <main class="container">
+        <header class="headerSearch">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="search"  placeholder="Buscar cidade" id="cityName">
+            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </header>
+
+        <section class="sectionTemp">
+            <div class="titleCity">
+                <h1 id="name">Belém, BR</h1>
+            </div>
+
+            <div class="temperatura">
+                <div class="divImg">
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="img tempo" id="imgIcon">
+                </div>
+                <div class="divTemp">
+                    <p class="temp">30 <sup class="sup">C°</sup> </p>
+                    <p class="descricao">Nuvens Dispersas</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionInfo">
+            <div class="info">
+                <div class="iconInfo">
+                    <i class="fa-solid fa-temperature-high" id="iconTempMax"></i>
+                </div>
+
+                <div class="tempInfo">
+                    <p class="titleInfo">Temp.max</p>
+                    <p id="tempMax"> 30 <sup>C°</sup></p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="iconInfo">
+                    <i class="fa-solid fa-temperature-low" id="iconTempMin"></i>
+                </div>
+
+                <div class="tempInfo">
+                    <p class="titleInfo">Temp.min</p>
+                    <p id="tempMin"> 30 <sup>C°</sup></p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="iconInfo">
+                    <i class="fa-solid fa-droplet" id="iconHumidade"></i>
+                </div>
+
+                <div class="tempInfo">
+                    <p class="titleInfo">Humidade</p>
+                    <p id="humidity"> 30%</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="iconInfo">
+                   <i class="fa-solid fa-wind" id="iconVento"></i>
+                </div>
+
+                <div class="tempInfo">
+                    <p class="titleInfo">Vento</p>
+                    <p id="speed"> 30 Km/h</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="alert">
+            <span id="msgError"></span>
+        </section>
+    </main>
+
+</body>
+<script src="src/js/script.js"></script>
+</html>
