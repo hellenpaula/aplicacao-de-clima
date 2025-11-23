@@ -173,3 +173,32 @@ body {
     width: 200px;
     padding-top: 15px;
 }
+
+@media screen and (max-width: 350px) {
+    .container {
+        min-width: 14rem;
+        margin: 5px;
+    }
+
+    #cityName {
+        min-width: 8rem;
+    }
+
+    .temperatura {
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+     .sectionInfo {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr;
+        justify-content: center;
+        
+    }
+    
+}
