@@ -1,6 +1,6 @@
 
 <h1 align="center"> Aplicação de Clima - OpenWeather Api </h1>
-<h1 align="center"><a href="" target="_blank">📍Veja o projeto aqui!</a></h1>
+<h1 align="center"><a href="https://hellenpaula.github.io/aplicacao-de-clima/" target="_blank">📍Veja o projeto aqui!</a></h1>
 
 ## 📷 Preview do projeto:
 <h1 align="center"> <img src="src\img\projeto-api-clima-video.gif" width="600px"> </img></h1>
