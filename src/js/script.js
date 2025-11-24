@@ -1,22 +1,4 @@
 
-// validação de valor:
-// ao entrar no projeto ele mostrará apenas a área de pesquisa;
-// quando digitar um valor válida(cidade q esteja na api, valor diferente de vazio, nulo);
-// se não for uma valor válido, é mostrado abaixo do input uma mensagem de erro;
-
-// retorna da temperatura:
-// ao digitar uma valor válido e clicar em pesquisar, ele deve retornar no container: nome da cidade digitado e país, ícone de imagens, temperatura, descrição; Na área de informações: pegar a temperatuda máx, temp min, humidade, vento;
-
-// criar função p/ mostrar a temp;
-// função para a mensagem de erro;
-// fazer requisição de api, usando async e await, fazer conversão para objeto(json), 
-
-// FAZER: 
-// Organizar código(funções, comentários);
-// Colocar letra maiúscula no início de cada palavra da descrição;
-// Colocar imagem para quando a cidade não for encontrada;
-// Estilizar mensagem de erro;
-
 // VARIÁVEIS:
 const search = document.querySelector("#searchIcon");
 const input = document.querySelector("#cityName")
